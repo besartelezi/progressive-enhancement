@@ -2,7 +2,7 @@ p{
     font-family: "Times New Roman", serif;
     word-spacing: 5px;
     color:darkred;
-    font-size:17px;
+    font-size:16px;
 
 }
 blockquote{
@@ -13,10 +13,10 @@ blockquote{
 }
 
 a{
-    color: darkblue;
+    color: red;
 }
 a:hover{
-    color: lightblue;
+    color: lightsalmon;
 }
 a:visited:hover{
     color: lightblue;
