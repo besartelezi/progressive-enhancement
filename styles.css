@@ -50,6 +50,21 @@ q.all-neighbors{
 q.farmer{
     color:darkslategray;
 }
-header:first-child{
+header > h1{
     background-color: yellow;
+}
+.good{
+    color: green;
+}
+.bad{
+    color: red;
+}
+table tr:nth-child(odd) td{
+background-color: lightgrey;
+}
+table tr:nth-child(even) td{
+background-color: white;
+}
+p:first-child{
+    font-weight:bold;
 }
