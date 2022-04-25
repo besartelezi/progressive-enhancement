@@ -2,7 +2,7 @@ p{
     font-family: "Times New Roman", serif;
     word-spacing: 5px;
     color:darkred;
-    font-size:18px;
+    font-size:17px;
 
 }
 blockquote{
@@ -13,24 +13,16 @@ blockquote{
 }
 
 a{
-    color: white;
-    background-color:darkred;
-    padding: 15px 25px;
-    display: inline-block;
-    text-decoration: none;
-    text-align:center;
-    border-radius: 10px;
+    color: darkblue;
 }
 a:hover{
-    background-color: lightcoral;
+    color: lightblue;
 }
 a:visited:hover{
-    background-color: lightcoral;
-    color:white;
+    color: lightblue;
 }
 a:visited{
-    background-color: red;
-    color: black;
+    color: lightslategray;
 }
 body{
     max-width: 90%;
