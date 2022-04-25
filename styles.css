@@ -40,6 +40,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
+    font-family: 'Open Sans', sans-serif;
 }
 q{
     font-style:italic;
@@ -67,4 +68,8 @@ background-color: white;
 }
 p:first-child{
     font-weight:bold;
+}
+img{
+    float:left;
+    margin-right: 25px;
 }
