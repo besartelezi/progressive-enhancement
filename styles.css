@@ -5,6 +5,7 @@ p{
     font-size:16px;
 
 }
+
 blockquote{
     font-family: "Times New Roman", serif;
     word-spacing: 5px;
@@ -15,15 +16,19 @@ blockquote{
 a{
     color: red;
 }
+
 a:hover{
     color: lightsalmon;
 }
+
 a:visited:hover{
     color: lightblue;
 }
+
 a:visited{
     color: lightslategray;
 }
+
 body{
     max-width: 90%;
     margin-left:auto;
@@ -34,33 +39,42 @@ body{
     background-position: right bottom;
     font-family: 'Open Sans', sans-serif;
 }
+
 q{
     font-style:italic;
 }
+
 q.all-neighbors{
     color:darkblue;
 }
+
 q.farmer{
     color:darkslategray;
 }
+
 header > h1{
     background-color: yellow;
 }
 .good{
     color: green;
 }
+
 .bad{
     color: red;
 }
+
 table tr:nth-child(odd) td{
 background-color: lightgrey;
 }
+
 table tr:nth-child(even) td{
 background-color: white;
 }
+
 p:first-child{
     font-weight:bold;
 }
+
 img{
     float:left;
     margin-right: 25px;
