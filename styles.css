@@ -1,0 +1,55 @@
+p{
+    font-family: "Times New Roman", serif;
+    word-spacing: 5px;
+    color:darkred;
+    font-size:18px;
+
+}
+blockquote{
+    font-family: "Times New Roman", serif;
+    word-spacing: 5px;
+    color:darkred;
+    font-size:18px;
+}
+
+a{
+    color: white;
+    background-color:darkred;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: lightcoral;
+}
+a:visited:hover{
+    background-color: lightcoral;
+    color:white;
+}
+a:visited{
+    background-color: red;
+    color: black;
+}
+body{
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("images/white.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+q{
+    font-style:italic;
+}
+q.all-neighbors{
+    color:darkblue;
+}
+q.farmer{
+    color:darkslategray;
+}
+header:first-child{
+    background-color: yellow;
+}
